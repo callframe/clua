@@ -25,7 +25,7 @@ FetchContent_MakeAvailable(abseil)
 FetchContent_Declare(
     unitables
     GIT_REPOSITORY https://github.com/callframe/unitables.git
-    GIT_TAG        cb3583e202f7f9250f5f397dabaccf0ea0052cab
+    GIT_TAG        bca6f03fc08dea9ce7acd82ef9848cb0d6a218e4
 )
 
 FetchContent_MakeAvailable(unitables)
