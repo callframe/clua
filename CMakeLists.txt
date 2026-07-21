@@ -22,6 +22,14 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(abseil)
 
+FetchContent_Declare(
+    unitables
+    GIT_REPOSITORY https://github.com/callframe/unitables.git
+    GIT_TAG        cb3583e202f7f9250f5f397dabaccf0ea0052cab
+)
+
+FetchContent_MakeAvailable(unitables)
+
 set(CLUA_SRCDIR "${CLUA_DIR}/clua")
 include("${CLUA_SRCDIR}/build.cmake")
 
